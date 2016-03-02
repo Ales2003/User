@@ -15,11 +15,13 @@ public class Main {
     
     public static void main(String[] args) {
     
-    User user1 = new User(25, "Ivan", "Ivanov");
-    User.printuser(user1);
+    User user1 = new User();
     
     User user2 = new User();
     User user3 = new User();
+    User user4 = new User(3,"q","q");
+    
+    User.printuser(user4);
     int w;
     
     User.printuser(user1);
