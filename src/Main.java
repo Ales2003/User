@@ -20,6 +20,7 @@ public class Main {
     User user2 = new User();
     User user3 = new User();
     User user4 = new User(3,"q","q");
+    User user6 = new User();
     
     User.printuser(user4);
     int w;
